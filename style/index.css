@@ -12,7 +12,7 @@
     justify-content: space-evenly;
   }
   
-  h1 {
+  .h1 {
     color: rgb(255, 255, 255);
     font-family: "Josefin Sans", sans-serif;
     font-style: normal;
@@ -24,7 +24,7 @@
     text-align: center;
   }
   
-  h2 {
+  .h2 {
     color: rgb(255, 255, 255);
     font-family: "Josefin Sans", sans-serif;
     font-style: normal;
