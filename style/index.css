@@ -15,7 +15,7 @@
   
   .h1 {
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
@@ -27,7 +27,7 @@
   
   .h2 {
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
@@ -44,7 +44,7 @@
   
   .header__para {
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -60,7 +60,7 @@
   
   .header__inputfield {
     color: rgb(255, 255, 255);
-    font-family: "Aleo", serif;
+    font-family: Aleo, serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -73,7 +73,7 @@
   
   .all_link-button-text {
     color: rgb(255, 255, 255);
-    font-family: "Aleo", serif;
+    font-family: Aleo, serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -119,7 +119,7 @@
   
   .test {
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
@@ -179,7 +179,7 @@
   
   .sec1 {
     color: rgb(255, 255, 255);
-    font-family: "Aleo", serif;
+    font-family: Aleo, serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -188,7 +188,7 @@
   
   p {
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -257,7 +257,7 @@
   
   .sec2{
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -346,7 +346,7 @@
   
   .test__para-top {
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -356,7 +356,7 @@
   
   .test__para-bottom {
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;

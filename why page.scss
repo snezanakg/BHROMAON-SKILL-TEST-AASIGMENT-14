@@ -20,12 +20,12 @@
 }
 
 h3 {
-    @include alternative-font;
+    font-family: Aleo, serif;
     font-size: 36px;
 }
 
 p {
-    @include base-font-1;
+    font-family:Josefin Sans, sans-serif ;
     font-size: 16px;
     letter-spacing: 1.6px;
 }
@@ -53,7 +53,7 @@ p {
     max-height: 400px;
     height: 100%;
     width: 100%;
-    background-color: $footer-dark;
+    background-color: rgb(51, 51, 51, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
