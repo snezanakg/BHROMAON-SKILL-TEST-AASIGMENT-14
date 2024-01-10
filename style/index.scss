@@ -1,0 +1,137 @@
+@import 'header page.scss';
+@import 'why page.scss';
+@import 'sec1 page.scss';
+@import 'sec2 page.scss';
+@import 'test page.scss';
+
+body {
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .header-full, 
+    .why-full,
+    .sec1-full,
+    .sec2-full, 
+    .test-full,
+    .header__footer, 
+    .why__footer
+    .test__footer, form {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .header__inputfield {
+    width: 200px;
+    font-size: 12px;
+    }
+
+    button {
+        width: 100px;
+    } 
+    .header__footer,
+    .header__footer__nav-links,
+    .header-full_sec2,
+    .why-full,
+    .sec1__box,
+    .sec2__box
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .why__pictures {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .why__pictures-top {
+        position: relative;
+        left: 0;
+    }
+
+    .sec1__box,
+    .sec2__box {
+    transform:translateX(0px);
+    }
+
+    .test__box {
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .test__box--right,
+    .test__box--left{
+        width: 250px;
+    }
+
+    .test__box--right {
+        overflow: scroll;
+    }
+    .test__picture {
+        padding: 15px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header-full, 
+    .why-full,
+    .sec1-full,
+    .sec2-full,
+    .test-full,
+    .header__footer, 
+    .why__footer,
+    .test__footer, form {
+        max-width: 770px;
+        width: 100%;
+    }
+
+    .header__footer, 
+    .header_footer__nav-links,
+    .header-full_sec2,
+    .why-full,
+    .sec1__box,
+    .sec2__box
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .why__pictures {
+        max-width: 320px;
+        width: 100%;
+    }
+
+
+    .sec1__box,
+    .psec2_box {
+    transform:translateX(0px);
+    }
+
+    .test__box {
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .test__box--right,
+    .test__box--left{
+        width: 550px;
+    }
+
+    .test__box--right {
+        overflow: scroll;
+    }
+}
