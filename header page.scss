@@ -1,0 +1,130 @@
+.header-full {
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    @include base-font-2;
+    font-size: 48px;
+    letter-spacing: 4.8px;
+    text-align: center
+}
+
+h2 {
+    @include base-font-2;
+    font-size: 22px;
+    letter-spacing: 6.8px;
+    text-align: center;
+}
+
+.header-full_sec3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__para {
+    @include base-font-1;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.fa-chevron-down {
+    color: $text-color;
+    text-align: center;
+}
+
+.header__inputfield {
+    @include alternative-font;
+    color: $alternative-color;
+    font-size: 16px; 
+    letter-spacing: 1.2px; 
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.all_link-button-text {
+    @include alternative-font;
+    font-size: 16px;
+    letter-spacing: 1.2px; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.form {
+    background-color: $text-color;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    border: none;
+}
+
+.input:focus {
+    border: 2px solid $alternative-color;
+}
+
+
+.button {
+    background-color: $alternative-color;
+    border: none;
+    height: 50px;
+    max-width: 200px;
+}
+
+.button:hover {
+    background-color: $text-color;
+    border: 2px solid $alternative-color;
+    color: $alternative-color;
+    cursor: pointer;
+}
+
+.header__footer {
+    width: 100%;
+    background-color: $alternative-color;
+}
+
+.test {
+    @include base-font-2;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    display: inline;
+    padding: 10px;
+}
+
+.header__footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__footer__nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__footer__nav-list:hover {
+    color: $alternative-color;
+    background-color: $text-color;
+    border: 2px solid $alternative-color
+}
