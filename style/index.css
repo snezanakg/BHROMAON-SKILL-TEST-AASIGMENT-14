@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 700px;
     height: 100%;
-    background-image: url(/images/p1_background.jpg);
+    background-image: url(images/header.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-size: 100%;
@@ -159,7 +159,7 @@
     width: 100%;
     min-height: 700px;
     height: 100%;
-    background-image: url(/images/p2_background.jpg);
+    background-image: url(images/why.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-size: 100%;
@@ -233,7 +233,7 @@
     width: 100%;
     min-height: 700px;
     height: 100%;
-    background-image: url(/images/p3_background.jpg);
+    background-image: url(images/sec1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-size: 100%;
@@ -269,7 +269,7 @@
     width: 100%;
     min-height: 700px;
     height: 100%;
-    background-image: url(/images/p4_background.png);
+    background-image: url(images/sec2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-size: 100%;
@@ -295,7 +295,7 @@
     width: 100%;
     min-height: 700px;
     height: 100%;
-    background-image: url(/images/p5_background.jpg);
+    background-image: url(images/test.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     -webkit-background-size: 100%;
